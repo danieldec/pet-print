@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.sourcey.materiallogindemo.mios">
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificar" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/uno"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/dos"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton6"
+        android:src="@drawable/tres"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton35"
+        android:src="@drawable/cuatro"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignParentStart="true" />
+ </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
